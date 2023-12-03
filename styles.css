@@ -1,0 +1,158 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkbox-label {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  display: inline-block;
+}
+
+#search {
+  flex: 1;
+  margin: 0 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+#searchBtn {
+  background-color: rgb(238, 9, 28);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#deleteSelected {
+  background-color: #f44336;
+  color: #c62727;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+#userTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#userTable th, #userTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination button {
+  background-color: #29a72d;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ddd;
+  color: #666;
+  cursor: not-allowed;
+}
+
+
+.table-container button {
+  background-color: #1294ea;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.edit-btn {
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#editModal {
+  display: none;
+}
+
+#editModal .modal-dialog {
+  max-width: 400px;
+}
+
+body {
+  background-color: #a0b3c5;
+  color: #ecf0f1;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  background-color: #34495e;
+  color: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background-color: #2980b9;
+  color: #ecf0f1;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.header input, .header button {
+  margin-bottom: 0;
+}
+
+.pagination button {
+  margin: 0 5px;
+}
+
+#editModal .modal-header {
+  background-color: #3498db;
+  color: #ecf0f1;
+  border-bottom: none;
+}
+
+#editModal .modal-footer {
+  background-color: #3498db;
+  border-top: none;
+}
